@@ -1,0 +1,102 @@
+[
+  {
+    "name": "lualine",
+    "url": "nvim-lualine/lualine.nvim",
+    "description": "A blazing fast and easy to configure Neovim statusline written in Lua."
+  },
+  {
+    "name": "telescope",
+    "url": "nvim-telescope/telescope.nvim",
+    "description": "Find, Filter, Preview, Pick. All lua, all the time."
+  },
+  {
+    "name": "lazy.nvim",
+    "url": "folke/lazy.nvim",
+    "description": "A modern plugin manager for Neovim. Fast, feature-rich and easy to use."
+  },
+  {
+    "name": "nvim-treesitter",
+    "url": "nvim-treesitter/nvim-treesitter",
+    "description": "Nvim Treesitter configurations and abstraction layer for better syntax highlighting and code understanding."
+  },
+  {
+    "name": "nvim-lspconfig",
+    "url": "neovim/nvim-lspconfig",
+    "description": "Quickstart configs for Nvim LSP."
+  },
+  {
+    "name": "mason.nvim",
+    "url": "williamboman/mason.nvim",
+    "description": "Portable package manager for Neovim that runs everywhere. Easily install LSP servers, DAP servers, linters and formatters."
+  },
+  {
+    "name": "nvim-cmp",
+    "url": "hrsh7th/nvim-cmp",
+    "description": "A completion engine plugin for neovim written in Lua."
+  },
+  {
+    "name": "catppuccin",
+    "url": "catppuccin/nvim",
+    "description": "Soothing pastel theme for High-performance Neovim."
+  },
+  {
+    "name": "neo-tree.nvim",
+    "url": "nvim-neo-tree/neo-tree.nvim",
+    "description": "Neovim plugin to manage the file system and other tree like structures."
+  },
+  {
+    "name": "which-key.nvim",
+    "url": "folke/which-key.nvim",
+    "description": "Displays a popup with possible keybindings of the command you started typing."
+  },
+  {
+    "name": "gitsigns.nvim",
+    "url": "lewis6991/gitsigns.nvim",
+    "description": "Git integration for buffers: show line changes, stage hunks, etc."
+  },
+  {
+    "name": "bufferline.nvim",
+    "url": "akinsho/bufferline.nvim",
+    "description": "A snazzy buffer line (with tabpage integration) for Neovim."
+  },
+  {
+    "name": "toggleterm.nvim",
+    "url": "akinsho/toggleterm.nvim",
+    "description": "A neovim plugin to persist and toggle multiple terminals during an editing session."
+  },
+  {
+    "name": "comment.nvim",
+    "url": "numToStr/Comment.nvim",
+    "description": "Smart and powerful comment plugin for neovim."
+  },
+  {
+    "name": "indent-blankline.nvim",
+    "url": "lukas-reineke/indent-blankline.nvim",
+    "description": "Indent guides for Neovim."
+  },
+  {
+    "name": "alpha-nvim",
+    "url": "goolord/alpha-nvim",
+    "description": "A fast and fully customizable greeter for neovim."
+  },
+  {
+    "name": "trouble.nvim",
+    "url": "folke/trouble.nvim",
+    "description": "A pretty list for showing diagnostics, references, telescope results, quickfix and location lists."
+  },
+  {
+    "name": "nvim-autopairs",
+    "url": "windwp/nvim-autopairs",
+    "description": "Autopairs for neovim written in lua."
+  },
+  {
+    "name": "plenary.nvim",
+    "url": "nvim-lua/plenary.nvim",
+    "description": "All the lua functions I don't want to write twice. A dependency for many popular plugins."
+  },
+  {
+    "name": "nvim-web-devicons",
+    "url": "nvim-tree/nvim-web-devicons",
+    "description": "Lua fork of vim-web-devicons for beautiful icons in your setup."
+  }
+]

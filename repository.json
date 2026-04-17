@@ -3,13 +3,48 @@
     "name": "catppuccin",
     "url": "catppuccin/nvim",
     "description": "Soothing pastel theme for Neovim.",
-    "category": "colorscheme"
+    "category": "colorscheme",
+    "options": [
+      {
+        "key": "flavour",
+        "label": "Flavour",
+        "type": "select",
+        "choices": ["latte", "frappe", "macchiato", "mocha"],
+        "default": "mocha",
+        "description": "Seleciona o esquema de cores do tema."
+      },
+      {
+        "key": "transparent_background",
+        "label": "Fundo Transparente",
+        "type": "boolean",
+        "default": false,
+        "description": "Torna o fundo transparente."
+      }
+    ]
   },
   {
     "name": "neo-tree.nvim",
     "url": "nvim-neo-tree/neo-tree.nvim",
     "description": "Neovim plugin to manage the file system and other tree like structures.",
-    "category": "file_explorer"
+    "category": "file_explorer",
+    "options": [
+      {
+        "key": "close_if_last_window",
+        "label": "Fechar se Última Janela",
+        "type": "boolean",
+        "default": false,
+        "description": "Fecha o neo-tree quando é a última janela aberta."
+      },
+      {
+        "key": "window_width",
+        "label": "Largura da Janela",
+        "type": "number",
+        "min": 10,
+        "max": 80,
+        "default": 40,
+        "description": "Largura em colunas da janela do explorador."
+      }
+    ]
   },
   {
     "name": "which-key.nvim",
@@ -21,19 +56,88 @@
     "name": "gitsigns.nvim",
     "url": "lewis6991/gitsigns.nvim",
     "description": "Git integration for buffers: show line changes, stage hunks, etc.",
-    "category": "git"
+    "category": "git",
+    "options": [
+      {
+        "key": "enabled",
+        "label": "Ativado",
+        "type": "boolean",
+        "default": true,
+        "description": "Ativa ou desativa o plugin."
+      },
+      {
+        "key": "signcolumn",
+        "label": "Coluna de Sinais",
+        "type": "boolean",
+        "default": true,
+        "description": "Exibe a coluna de sinais com indicadores de mudanças."
+      },
+      {
+        "key": "numhl",
+        "label": "Highlight no Número",
+        "type": "boolean",
+        "default": false,
+        "description": "Adiciona highlight na coluna de números para linhas alteradas."
+      },
+      {
+        "key": "current_line_blame_opts_delay_ms",
+        "label": "Atraso do Blame (ms)",
+        "type": "number",
+        "min": 10,
+        "max": 5000,
+        "default": 1000,
+        "description": "Tempo em milissegundos para o blame aparecer."
+      },
+      {
+        "key": "preview_config_border",
+        "label": "Borda do Preview",
+        "type": "select",
+        "choices": ["single", "rounded", "double"],
+        "default": "single",
+        "description": "Define o estilo da borda do preview de mudanças."
+      }
+    ]
   },
   {
     "name": "bufferline.nvim",
     "url": "akinsho/bufferline.nvim",
     "description": "A snazzy buffer line (with tabpage integration) for Neovim.",
-    "category": "ui"
+    "category": "ui",
+    "options": [
+      {
+        "key": "max_name_length",
+        "label": "Comprimento Máximo do Nome",
+        "type": "number",
+        "min": 5,
+        "max": 50,
+        "default": 18,
+        "description": "Comprimento máximo do nome do buffer exibido."
+      }
+    ]
   },
   {
     "name": "toggleterm.nvim",
     "url": "akinsho/toggleterm.nvim",
     "description": "A neovim plugin to persist and toggle multiple terminals during an editing session.",
-    "category": "terminal"
+    "category": "terminal",
+    "options": [
+      {
+        "key": "open_mapping",
+        "label": "Tecla de Atalho",
+        "type": "string",
+        "default": "<C-\\>",
+        "description": "Combinação de teclas para abrir/fechar o terminal."
+      },
+      {
+        "key": "size",
+        "label": "Tamanho do Terminal",
+        "type": "number",
+        "min": 5,
+        "max": 50,
+        "default": 20,
+        "description": "Altura do terminal em linhas."
+      }
+    ]
   },
   {
     "name": "comment.nvim",
@@ -45,7 +149,22 @@
     "name": "indent-blankline.nvim",
     "url": "lukas-reineke/indent-blankline.nvim",
     "description": "Indent guides for Neovim.",
-    "category": "ui"
+    "category": "ui",
+    "options": [
+      {
+        "key": "enabled",
+        "label": "Ativado",
+        "type": "boolean",
+        "default": true
+      },
+      {
+        "key": "char",
+        "label": "Caractere de Guia",
+        "type": "string",
+        "default": "│",
+        "description": "Caractere usado para desenhar as linhas de indentação."
+      }
+    ]
   },
   {
     "name": "alpha-nvim",
